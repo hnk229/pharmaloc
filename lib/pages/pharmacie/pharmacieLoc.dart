@@ -38,6 +38,7 @@ class _PharmacieLocState extends State<PharmacieLoc> {
       _getCurrentLocation(); // Si les autorisations sont accordées, obtenir la localisation
     } else {
       // Gérer le cas où l'utilisateur refuse les autorisations
+      return Future.error("Permission de localisation refuser");
     }
   }
 
