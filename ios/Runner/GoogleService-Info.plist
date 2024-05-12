@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDjRlzlYH-XxlNjd7hJGb0bZafmcS4fjS4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>177763907312</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>bj.ulrich.pharmaloc</string>
+	<key>PROJECT_ID</key>
+	<string>pharmaloc-1ccf7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pharmaloc-1ccf7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:177763907312:ios:e75fb751e823a9e672f435</string>
+</dict>
+</plist>

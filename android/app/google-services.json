@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177763907312",
+    "project_id": "pharmaloc-1ccf7",
+    "storage_bucket": "pharmaloc-1ccf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177763907312:android:c5bfcb4da943e4e172f435",
+        "android_client_info": {
+          "package_name": "bj.ulrich.pharmaloc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQcMCpB5YP3tIXy993L4ljssdB2bvu99U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
