@@ -19,10 +19,16 @@ class _PharmacieLocState extends State<PharmacieLoc> {
   late GoogleMapController mapController;
   late LatLng userLocation;
   final Set<Marker> _markers = {};
+  final DateTime heure = DateTime.now();
   List<dynamic> pharmacies = [];
   bool trouver = false;
   bool isLoading = false;
   late bool open = false;
+  // Définir les heures d'ouverture et de fermeture
+  int heureOuverture = 8;
+  int heureFermeture = 22;
+
+  // Vérifier si l'heure actuelle est dans l'intervalle d'ouverture
 
   @override
   void initState() {
@@ -135,7 +141,7 @@ class _PharmacieLocState extends State<PharmacieLoc> {
                             final distance = pharmacy['distance'];
                             final openingHours = pharmacy['opening_hours'];
                             print(pharmacy['international_phone_number']);
-                            if(openingHours == true){
+                            if(heure.hour >= heureOuverture && heure.hour < heureFermeture){
                               open = true;
                             }else{
                               open = false;

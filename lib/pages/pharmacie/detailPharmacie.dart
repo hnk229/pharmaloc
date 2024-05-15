@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pharmaloc/pages/medicament/verifierMedicament.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../widgets/custom_scaffold.dart';
@@ -96,7 +97,9 @@ class _DetailPharmacieState extends State<DetailPharmacie> {
                                       ),
                                     )),
                                 const SizedBox(width: 20,),
-                                ElevatedButton(onPressed: _openMapsApp,
+                                ElevatedButton(onPressed: (){
+                                  VerifierMedicament(pharmacyName: nomPharma);
+                                  },
                                     style: ElevatedButton.styleFrom(
                                         backgroundColor: const Color(0xff367f2b),
                                         shape: const StadiumBorder(),
